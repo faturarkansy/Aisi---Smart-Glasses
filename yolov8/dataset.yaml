@@ -1,0 +1,14 @@
+# dataset.yaml
+
+# Path ke dataset
+train: yolov8/dataset/images/train  # Path ke folder gambar untuk pelatihan
+val: yolov8/dataset/images/val      # Path ke folder gambar untuk validasi
+
+# Jumlah kelas
+nc: 3  # Jumlah kelas yang ingin dideteksi (kendaraan, manusia, jalan)
+
+# Nama kelas
+names:
+  0: kendaraan  # Label untuk kelas kendaraan
+  1: manusia    # Label untuk kelas manusia
+  2: jalan      # Label untuk kelas jalan
